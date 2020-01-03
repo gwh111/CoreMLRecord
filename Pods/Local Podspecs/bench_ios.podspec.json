@@ -1,0 +1,50 @@
+{
+  "name": "bench_ios",
+  "version": "2.0.2",
+  "license": {
+    "type": "BSD"
+  },
+  "homepage": "https://github.com/gwh111/bench_ios",
+  "authors": {
+    "apple": "173695508@qq.com"
+  },
+  "summary": "IOS bench tool for developer",
+  "source": {
+    "svn": "https://apple@huored.gicp.net:8088/svn/bench_ios/trunk/bench_ios_net",
+    "tag": "v2.0.2"
+  },
+  "frameworks": "UIKit",
+  "module_name": "ccs",
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": "bench_ios/bench/*",
+  "resources": "bench_ios/bench/bench_ios.bundle",
+  "subspecs": [
+    {
+      "name": "debugPlugin",
+      "source_files": "bench_ios/bench/debugPlugin*/**/*.{h,m,mm}",
+      "resources": "bench_ios/bench/debugPluginList/debug_function.plist"
+    },
+    {
+      "name": "CC_Kit",
+      "source_files": "bench_ios/bench/CC_Kit/**/*"
+    },
+    {
+      "name": "CC_Lib",
+      "source_files": "bench_ios/bench/CC_Lib/**/*"
+    },
+    {
+      "name": "CC_Function",
+      "source_files": "bench_ios/bench/CC_Function/**/*"
+    },
+    {
+      "name": "CC_Foundation",
+      "source_files": "bench_ios/bench/CC_Foundation/**/*"
+    },
+    {
+      "name": "CC_CoreFoundation",
+      "source_files": "bench_ios/bench/CC_CoreFoundation/**/*"
+    }
+  ]
+}

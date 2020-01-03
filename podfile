@@ -1,0 +1,9 @@
+
+platform :ios, '9.0'
+
+target 'BallOC' do
+
+  pod 'bench_ios', :svn => 'https://apple@huored.gicp.net:8088/svn/bench_ios/trunk/bench_ios_net/bench_ios'
+  pod 'Charts'
+  
+end

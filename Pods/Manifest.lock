@@ -1,0 +1,42 @@
+PODS:
+  - bench_ios (2.0.2):
+    - bench_ios/CC_CoreFoundation (= 2.0.2)
+    - bench_ios/CC_Foundation (= 2.0.2)
+    - bench_ios/CC_Function (= 2.0.2)
+    - bench_ios/CC_Kit (= 2.0.2)
+    - bench_ios/CC_Lib (= 2.0.2)
+    - bench_ios/debugPlugin (= 2.0.2)
+  - bench_ios/CC_CoreFoundation (2.0.2)
+  - bench_ios/CC_Foundation (2.0.2)
+  - bench_ios/CC_Function (2.0.2)
+  - bench_ios/CC_Kit (2.0.2)
+  - bench_ios/CC_Lib (2.0.2)
+  - bench_ios/debugPlugin (2.0.2)
+  - Charts (3.4.0):
+    - Charts/Core (= 3.4.0)
+  - Charts/Core (3.4.0)
+
+DEPENDENCIES:
+  - "bench_ios (from `https://apple@huored.gicp.net:8088/svn/bench_ios/trunk/bench_ios_net/bench_ios`)"
+  - Charts
+
+SPEC REPOS:
+  trunk:
+    - Charts
+
+EXTERNAL SOURCES:
+  bench_ios:
+    :svn: "https://apple@huored.gicp.net:8088/svn/bench_ios/trunk/bench_ios_net/bench_ios"
+
+CHECKOUT OPTIONS:
+  bench_ios:
+    :revision: '1385'
+    :svn: "https://apple@huored.gicp.net:8088/svn/bench_ios/trunk/bench_ios_net/bench_ios"
+
+SPEC CHECKSUMS:
+  bench_ios: 0c3aa08c3c42b0a6db751ed9b32633f2c420efe4
+  Charts: 74c9f256eaf0460c0c416522d1cf8c634ea6b286
+
+PODFILE CHECKSUM: b2ca78761ba0d0677ac283bee92008dcb01d8113
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,6 @@
+module Pods_BallOC {
+  umbrella header "Pods-BallOC-umbrella.h"
+
+  export *
+  module * { export * }
+}
